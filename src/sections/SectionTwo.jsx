@@ -1,4 +1,4 @@
-import cohorts from "../assets/cohorts_2_cropped.svg";
+import cohorts from "../assets/cohorts.svg";
 import eye from "../assets/eye.svg";
 
 export function SectionTwo() {

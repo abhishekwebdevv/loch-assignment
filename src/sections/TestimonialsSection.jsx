@@ -1,6 +1,5 @@
 import { TestimonialCard } from "../components";
 import logo from "../assets/logo.svg";
-import "pure-react-carousel/dist/react-carousel.es.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export function TestimonialsSection() {
@@ -52,38 +51,6 @@ export function TestimonialsSection() {
             />
           </SwiperSlide>
         </Swiper>
-        {/* <CarouselProvider
-          totalSlides={3}
-          className="w-full mt-10 -mr-16"
-          dragEnabled
-          visibleSlides={1.7}
-          isIntrinsicHeight
-        >
-          <Slider>
-            <Slide index={0}>
-              <TestimonialCard
-                title="Jack F"
-                subtitle="Ex Blackrock PM"
-                content="“Love how Loch integrates portfolio analytics and whale watching into one unified app.”"
-              />
-            </Slide>
-            <Slide index={1}>
-              <TestimonialCard
-                title="Yash P"
-                subtitle="Research, 3poch Crypto Hedge Fund"
-                content="“I use Loch everyday now. I don't think I could analyze crypto whale trends markets without it. I'm addicted!”"
-              />
-            </Slide>
-
-            <Slide index={2}>
-              <TestimonialCard
-                title="Shiv S"
-                subtitle="Co-Founder Magik Labs"
-                content="“Managing my own portfolio is helpful and well designed. What’s really interesting is watching the whales though. No one else has made whale tracking so simple.”"
-              />
-            </Slide>
-          </Slider>
-        </CarouselProvider> */}
       </div>
     </section>
   );
